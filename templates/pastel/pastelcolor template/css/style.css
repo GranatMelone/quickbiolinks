@@ -2,22 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 
 body {
-    background: url('../images/bg.jpg') ;
-    background-size: cover;
+    background: url('../images/bg.jpeg') ;
+    background-size: auto;
+    background-repeat: no-repeat;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
 
 #userPhoto {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     display: block;
     margin: 10px auto;
     border-radius: 20%;
 }
 
 #userName {
-    color: rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
     display: block;
     width: 100%;
     text-align: center;
